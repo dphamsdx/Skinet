@@ -1,0 +1,36 @@
+/*Class Ref:*/
+https://www.udemy.com/course/learn-to-build-an-e-commerce-app-with-net-core-and-angular/learn/lecture/18136696#overview
+
+/*Installing .net 5 sdk*/
+dotnet --list-sdks
+dotnet --list-runtimes
+
+/*Install Visual Studio Code and open as from cmd prompt*/
+..\SkiNet\Code .
+
+/*Shortcuts*/
+Show All Commands: Shift+Ctrl + P
+Go to File: Ctrl + P
+Find in Files: Shift+Ctrl + F
+Start Debugging: F5
+Toggle Terminal: Ctrl + ~
+
+/*Installing extensions for Visual Studio Code*/
+Section 1.3
+
+
+/*Make development certificate trusted*/
+dotnet dev-certs https --trust
+
+
+/*Installing nugetpacket MS Entity Framework Core Sqlite*/
+dotnet --info
+Version: 5.0.11
+
+Shift+Ctrl + P
+nugetpacket
+Installing version that matchs current sdk which is 5.0.11
+
+/*Git check in*/
+git add .
+git commit -m "init skinet"
